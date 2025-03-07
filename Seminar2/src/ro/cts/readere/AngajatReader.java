@@ -19,10 +19,8 @@ public class AngajatReader extends AplicantReader {
         while (input2.hasNext()) {
             Angajat angajat = new Angajat();
             super.readAplicant(input2,angajat);
-            int salariu = input2.nextInt();
-            String ocupatie = input2.next();
-            angajat.setSalariu(salariu);
-            angajat.setOcupatie(ocupatie);
+            angajat.setSalariu(input2.nextInt());
+            angajat.setOcupatie(input2.next());
             angajati.add(angajat);
         }
         input2.close();

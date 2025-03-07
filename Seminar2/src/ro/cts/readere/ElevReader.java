@@ -19,10 +19,8 @@ public class ElevReader extends AplicantReader {
         while (input2.hasNext()) {
             Elev elev = new Elev();
             super.readAplicant(input2,elev);
-            int clasa = input2.nextInt();
-            String tutore = input2.next();
-            elev.setClasa(clasa);
-            elev.setTutore(tutore);
+            elev.setClasa(input2.nextInt());
+            elev.setTutore(input2.next());
             elevi.add(elev);
         }
 
