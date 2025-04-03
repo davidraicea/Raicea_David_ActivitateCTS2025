@@ -10,6 +10,8 @@
       <module fileurl="file://$PROJECT_DIR$/Seminar5-Builder_v1/Seminar5-Builder_v1.iml" filepath="$PROJECT_DIR$/Seminar5-Builder_v1/Seminar5-Builder_v1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Seminar5-Builder_v2/Seminar5-Builder_v2.iml" filepath="$PROJECT_DIR$/Seminar5-Builder_v2/Seminar5-Builder_v2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Seminar5-FactoryMethod/Seminar5-FactoryMethod.iml" filepath="$PROJECT_DIR$/Seminar5-FactoryMethod/Seminar5-FactoryMethod.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Seminar6-AdapterDeClase/Seminar6-AdapterDeClase.iml" filepath="$PROJECT_DIR$/Seminar6-AdapterDeClase/Seminar6-AdapterDeClase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Seminar6-AdapterDeObiecte/Seminar6-AdapterDeObiecte.iml" filepath="$PROJECT_DIR$/Seminar6-AdapterDeObiecte/Seminar6-AdapterDeObiecte.iml" />
     </modules>
   </component>
 </project>
