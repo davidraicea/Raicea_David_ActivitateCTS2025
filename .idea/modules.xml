@@ -12,6 +12,9 @@
       <module fileurl="file://$PROJECT_DIR$/Seminar5-FactoryMethod/Seminar5-FactoryMethod.iml" filepath="$PROJECT_DIR$/Seminar5-FactoryMethod/Seminar5-FactoryMethod.iml" />
       <module fileurl="file://$PROJECT_DIR$/Seminar6-AdapterDeClase/Seminar6-AdapterDeClase.iml" filepath="$PROJECT_DIR$/Seminar6-AdapterDeClase/Seminar6-AdapterDeClase.iml" />
       <module fileurl="file://$PROJECT_DIR$/Seminar6-AdapterDeObiecte/Seminar6-AdapterDeObiecte.iml" filepath="$PROJECT_DIR$/Seminar6-AdapterDeObiecte/Seminar6-AdapterDeObiecte.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Seminar8-Decorator/Seminar8-Decorator.iml" filepath="$PROJECT_DIR$/Seminar8-Decorator/Seminar8-Decorator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Seminar8-Facade/Seminar8-Facade.iml" filepath="$PROJECT_DIR$/Seminar8-Facade/Seminar8-Facade.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Seminar8-Proxy/Seminar8-Proxy.iml" filepath="$PROJECT_DIR$/Seminar8-Proxy/Seminar8-Proxy.iml" />
     </modules>
   </component>
 </project>
