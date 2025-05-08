@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Seminar1/Seminar1.iml" filepath="$PROJECT_DIR$/Seminar1/Seminar1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Seminar10-Composite/Seminar10-Composite.iml" filepath="$PROJECT_DIR$/Seminar10-Composite/Seminar10-Composite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Seminar10-Flyweight/Seminar10-Flyweight.iml" filepath="$PROJECT_DIR$/Seminar10-Flyweight/Seminar10-Flyweight.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Seminar10-Template/Seminar10-Template.iml" filepath="$PROJECT_DIR$/Seminar10-Template/Seminar10-Template.iml" />
       <module fileurl="file://$PROJECT_DIR$/Seminar2/Seminar2.iml" filepath="$PROJECT_DIR$/Seminar2/Seminar2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Seminar3-Singleton/Seminar3-Singleton.iml" filepath="$PROJECT_DIR$/Seminar3-Singleton/Seminar3-Singleton.iml" />
       <module fileurl="file://$PROJECT_DIR$/Seminar4-Factory/Seminar4-Factory.iml" filepath="$PROJECT_DIR$/Seminar4-Factory/Seminar4-Factory.iml" />
