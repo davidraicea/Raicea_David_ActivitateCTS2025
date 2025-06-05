@@ -1,5 +1,9 @@
 package ro.cts.teste;
 
+import org.junit.Test;
+import org.junit.experimental.categories.Category;
+import ro.cts.categorii.CategorieBoundary;
+import ro.cts.categorii.CategorieRight;
 import ro.cts.clase.Persoana;
 import ro.cts.exceptii.ExceptieCnpInexistent;
 import ro.cts.exceptii.ExceptieCnpInvalid;
@@ -17,6 +21,7 @@ public class GetVarstaTest {
 
     //Right-BICEP
     @org.junit.Test
+    @Category({CategorieRight.class})
     public void getVarstaRight() {
         persoana = new Persoana("Andrei", "2920221484692");
         int varsta = persoana.getVarsta();
@@ -24,6 +29,7 @@ public class GetVarstaTest {
     }
 
     @org.junit.Test
+    @Category({CategorieRight.class})
     public void getVarstaRight2() {
         persoana = new Persoana("Andrei", "5030221484692");
         int varsta = persoana.getVarsta();
@@ -31,6 +37,7 @@ public class GetVarstaTest {
     }
 
     @org.junit.Test
+    @Category(CategorieBoundary.class)
     public void getVarstaBoundary() {
         persoana = new Persoana("Andrei", "2991231484692");
         int varsta = persoana.getVarsta();
@@ -38,6 +45,7 @@ public class GetVarstaTest {
     }
 
     @org.junit.Test
+    @Category({CategorieBoundary.class, CategorieRight.class}) //right pt a vedea ca poate face parte din mai multe categorii; doar de test
     public void getVarstaBoundary2() {
         persoana = new Persoana("Andrei", "5000101484692");
         int varsta = persoana.getVarsta();

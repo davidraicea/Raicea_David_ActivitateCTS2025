@@ -19,7 +19,7 @@ public class PachetTuristic {
 
 	public void aplicaDiscountVarstnici(int procent) {
 		if (this.client.getVarsta() >= 65) {
-			this.pret = this.pret - (procent / 100);
+			this.pret = this.pret - (procent / 100.0) * this.pret;
 		}
 	}
 
